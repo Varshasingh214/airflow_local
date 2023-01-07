@@ -29,7 +29,7 @@ Here comes operators in action. We define task_id of each task and the operation
 run_this_last = EmptyOperator(
     task_id="run_this_last",
 )
-# [START howto_operator_bash]
+
 run_this = BashOperator(
     task_id="run_after_loop",
     bash_command="echo 1",
