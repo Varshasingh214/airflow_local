@@ -1,5 +1,6 @@
 
-Writing DAGs	
+Writing DAGs
+-----------------------------------------------------------------------------------------------------------------------------------------------
 **1.**	**Make the imports**:
 Begin with always importing Python DAG class. After which Operator imports are required.
 
@@ -42,6 +43,8 @@ Dependencies are defined using left bitshift and right bitshift operators.
 
 'run_this' will be executed first and then 'run_this_last' will be executed.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Executing DAGs
 
 Save & place the dag.py as follows:  airflow -> example->dags -> your_dag.py
 
